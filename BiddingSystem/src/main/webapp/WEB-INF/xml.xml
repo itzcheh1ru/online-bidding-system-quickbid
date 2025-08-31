@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+
+     <servlet>
+     	<servlet-name>InsertServlet</servlet-name>
+     	<servlet-class>biddingsignuppackage.InsertServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>InsertServlet</servlet-name>
+     	<url-pattern>/InsertServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>GetAllServlet</servlet-name>
+     	<servlet-class>biddingsignuppackage.GetAllServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>GetAllServlet</servlet-name>
+     	<url-pattern>/GetAllServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>UpdateServlet</servlet-name>
+     	<servlet-class>biddingsignuppackage.UpdateServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>UpdateServlet</servlet-name>
+     	<url-pattern>/UpdateServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>DeleteServlet</servlet-name>
+     	<servlet-class>biddingsignuppackage.DeleteServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>DeleteServlet</servlet-name>
+     	<url-pattern>/DeleteServlet</url-pattern>
+     </servlet-mapping>
+     
+     <!-- Login System Lucky-->
+     
+     <servlet>
+     	<servlet-name>UserInsertServlet</servlet-name>
+     	<servlet-class>UserLogPackage.UserInsertServlet</servlet-class>
+     </servlet>
+     
+     <servlet-mapping>
+     	<servlet-name>UserInsertServlet</servlet-name>
+     	<url-pattern>/UserInsertServlet</url-pattern>
+     </servlet-mapping>
+     
+	<welcome-file-list>
+    		<welcome-file>insert.jsp</welcome-file>
+  		</welcome-file-list>
+
+</web-app>
