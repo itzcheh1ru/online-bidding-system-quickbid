@@ -154,8 +154,8 @@ private static final String PASSWORD = "your_password";
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/itzcheh1ru)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/itzcheh1ru)
+- GitHub: [@HirushaThisayuruEllawala](https://github.com/itzcheh1ru)
+- LinkedIn: [HirushaThisayuruEllawala](https://linkedin.com/in/itzcheh1ru)
 
 ## �� Acknowledgments
 
