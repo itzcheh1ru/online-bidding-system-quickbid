@@ -89,3 +89,85 @@ A Java-based web application for managing online auctions and bidding processes.
       ├── DataBase/
       │ └── bidding_system.sql # Database schema
       └── build/ # Compiled classes
+
+## �� Configuration
+
+### Database Connection
+Update the database connection settings in `src/main/java/utill/DBConnect.java`:
+
+```java
+private static final String URL = "jdbc:mysql://localhost:3306/bidding_system";
+private static final String USERNAME = "your_username";
+private static final String PASSWORD = "your_password";
+```
+
+### Tomcat Configuration
+- Set Java version to 8 or higher
+- Allocate sufficient memory: `-Xmx1024m`
+- Configure context path in `server.xml`
+
+## 🎯 Key Features Explained
+
+### Authentication System
+- Secure login for all user types
+- Session management
+- Role-based access control
+
+### Bidding Process
+1. Seller lists an item with starting price
+2. Bidders place bids on the item
+3. System tracks highest bidder
+4. Auction ends with winner determination
+
+### Payment Integration
+- Secure payment processing
+- Transaction history
+- Payment status tracking
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+1. **Database Connection Error**
+   - Verify MySQL is running
+   - Check connection credentials
+   - Ensure database exists
+
+2. **Tomcat Deployment Issues**
+   - Check Java version compatibility
+   - Verify WAR file deployment
+   - Check Tomcat logs for errors
+
+3. **JSP Compilation Errors**
+   - Ensure all JAR dependencies are in WEB-INF/lib
+   - Check Java version compatibility
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## 👨‍💻 Author
+
+**Your Name**
+- GitHub: [@yourusername](https://github.com/itzcheh1ru)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/itzcheh1ru)
+
+## �� Acknowledgments
+
+- Bootstrap for the responsive UI framework
+- Apache Tomcat for the servlet container
+- MySQL for the database management system
+- Eclipse for the development environment
+
+## 📞 Support
+
+If you have any questions or need help, please open an issue on GitHub or contact the maintainer.
+
+---
+
+⭐ **Star this repository if you found it helpful!**
