@@ -71,3 +71,21 @@ A Java-based web application for managing online auctions and bidding processes.
    - Access the application at `http://localhost:8080/BiddingSystem`
 
 ## 📁 Project Structure
+      BiddingSystem/
+      ├── src/
+      │ ├── main/
+      │ │ ├── java/
+      │ │ │ ├── biddingsignuppackage/ # Signup functionality
+      │ │ │ ├── dao/ # Data Access Objects
+      │ │ │ ├── model/ # Data models
+      │ │ │ ├── servlet/ # Servlet controllers
+      │ │ │ └── utill/ # Utility classes
+      │ │ └── webapp/
+      │ │ ├── WEB-INF/
+      │ │ │ ├── lib/ # JAR dependencies
+      │ │ │ └── web.xml # Web configuration
+      │ │ ├── .jsp # JSP pages
+      │ │ └── home.jsp # Landing page
+      ├── DataBase/
+      │ └── bidding_system.sql # Database schema
+      └── build/ # Compiled classes
