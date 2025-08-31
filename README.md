@@ -21,7 +21,7 @@ A Java-based web application for managing online auctions and bidding processes.
 - **Server**: Apache Tomcat
 - **IDE**: Eclipse Dynamic Web Project
 
-## �� User Roles
+## 📋 User Roles
 
 ### 👨‍💼 Admin
 - System oversight and management
@@ -71,26 +71,29 @@ A Java-based web application for managing online auctions and bidding processes.
    - Access the application at `http://localhost:8080/BiddingSystem`
 
 ## 📁 Project Structure
-      BiddingSystem/
-      ├── src/
-      │ ├── main/
-      │ │ ├── java/
-      │ │ │ ├── biddingsignuppackage/ # Signup functionality
-      │ │ │ ├── dao/ # Data Access Objects
-      │ │ │ ├── model/ # Data models
-      │ │ │ ├── servlet/ # Servlet controllers
-      │ │ │ └── utill/ # Utility classes
-      │ │ └── webapp/
-      │ │ ├── WEB-INF/
-      │ │ │ ├── lib/ # JAR dependencies
-      │ │ │ └── web.xml # Web configuration
-      │ │ ├── .jsp # JSP pages
-      │ │ └── home.jsp # Landing page
-      ├── DataBase/
-      │ └── bidding_system.sql # Database schema
-      └── build/ # Compiled classes
 
-## �� Configuration
+```
+BiddingSystem/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── biddingsignuppackage/    # Signup functionality
+│   │   │   ├── dao/                     # Data Access Objects
+│   │   │   ├── model/                   # Data models
+│   │   │   ├── servlet/                 # Servlet controllers
+│   │   │   └── utill/                   # Utility classes
+│   │   └── webapp/
+│   │       ├── WEB-INF/
+│   │       │   ├── lib/                 # JAR dependencies
+│   │       │   └── web.xml              # Web configuration
+│   │       ├── *.jsp                    # JSP pages
+│   │       └── home.jsp                 # Landing page
+├── DataBase/
+│   └── bidding_system.sql               # Database schema
+└── build/                               # Compiled classes
+```
+
+## 🔧 Configuration
 
 ### Database Connection
 Update the database connection settings in `src/main/java/utill/DBConnect.java`:
@@ -150,14 +153,17 @@ private static final String PASSWORD = "your_password";
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@HirushaThisayuruEllawala](https://github.com/itzcheh1ru)
-- LinkedIn: [HirushaThisayuruEllawala](https://linkedin.com/in/itzcheh1ru)
+- GitHub: [@yourusername](https://github.com/yourusername)
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
-## �� Acknowledgments
+## 🙏 Acknowledgments
 
 - Bootstrap for the responsive UI framework
 - Apache Tomcat for the servlet container
