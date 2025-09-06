@@ -160,8 +160,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@itzcheh1ru](https://github.com/itzcheh1ru)
+- LinkedIn: [itzcheh1ru](https://linkedin.com/in/itzcheh1ru)
 
 ## 🙏 Acknowledgments
 
